@@ -1,13 +1,10 @@
 ﻿//Задача 34
-/*
+
 Console.Write("Input lenght array: ");
 int length = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[length];
 int Positive = 0;
 Console.Write("[");
-FillArrayRandomNumbers(array);
-
-
 for(int i = 0; i < array.Length; i++)
 {
     array[i] = new Random().Next(99, 1000);
@@ -19,20 +16,13 @@ for(int i = 0; i < array.Length; i++)
 }
 Console.Write("]");
 Console.Write(" -> ");
-void FillArrayRandomNumbers(int[] array)
-{
-    for(int i = 0; i < array.Length; i++)
-    {
-        array[i] = new Random().Next(100, 1000);
-    }
-}
 for(int i = 0; i < array.Length; i++)
 {
     if(array[i] % 2 == 0)
         Positive++;
 }
 Console.WriteLine($"Чётных чисел = {Positive}");
-*/
+
 
 //Задача 36
 //Задайте одномерный массив, заполненный случайными числами. Найдите 
@@ -67,6 +57,7 @@ Console.WriteLine(sumNegative);
 //Задача 38: Задайте массив вещественных чисел. Найдите разницу между максимальным 
 //и минимальным элементов массива.
 //[3 7 22 2 78] -> 76
+/*
 Console.Write("Input lenght array: ");
 int length = Convert.ToInt32(Console.ReadLine());
 int[] array = new int[length];
@@ -94,6 +85,6 @@ for(int i = 0; i < array.Length; i++)
         array[i]++;
 }
 Console.Write($"{maxNumber - minNumber}"); 
-
+*/
 
 
